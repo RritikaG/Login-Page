@@ -80,7 +80,7 @@ document.getElementById("email1").innerHTML=users[i].email;
 function logoutpage()
 {
     localStorage.clear("User");
-    window.location.assign("LOGIN.html");
+    window.location.assign("index.html");
 }
 
 
